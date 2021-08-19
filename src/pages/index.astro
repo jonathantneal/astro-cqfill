@@ -1,0 +1,24 @@
+---
+import Demo from '../components/Demo.astro'
+---
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Zero</title>
+	<link rel="stylesheet" href="https://raw.githack.com/csstools/sanitize.css/main/sanitize.css" />
+	<link rel="stylesheet" href="https://raw.githack.com/csstools/sanitize.css/main/typography.css" />
+	<link rel="stylesheet" href="/style/Demo.css" />
+	<script type="module">
+	import { cqfill } from 'https://unpkg.com/cqfill@0.6.0/export/cqfill.mjs'
+
+	cqfill()
+	</script>
+</head>
+
+<body>
+	<Demo />
+</body>
+
+</html>
